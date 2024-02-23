@@ -1,0 +1,17 @@
+.todo-form{
+    margin-top: 10px;
+    border: solid 1px white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todo-form h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.todo-form input, select{
+    margin-bottom: 10px;
+}
