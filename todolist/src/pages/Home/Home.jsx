@@ -4,7 +4,6 @@ import React from 'react';
 import Introduction from '../../components/Introduction/Introduction.jsx';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import calendarioIcon from '../../img/calendar-color-icon.svg';
-import Footer from '../../components/Footer/Footer';
 
 
 function Home() {
@@ -38,7 +37,6 @@ function Home() {
           <p> XX/XX/2024: Data limite de registro e submissão de artigos</p>
         </div>
       </div>
-      <Footer />
     </div>
   );
   

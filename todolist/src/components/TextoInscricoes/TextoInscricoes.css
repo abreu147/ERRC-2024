@@ -1,0 +1,27 @@
+/* InformacoesGerais.css */
+.informacoes-gerais {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .informacoes-gerais h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .informacoes-gerais ul {
+    font-size: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .informacoes-gerais ul li {
+    margin-bottom: 10px;
+  }
+  
+  .informacoes-gerais ul li strong {
+    font-weight: bold;
+  }
+  
