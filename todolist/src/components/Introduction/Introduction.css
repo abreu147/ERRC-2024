@@ -1,0 +1,22 @@
+.introduction-container {
+    padding: 5px;
+    max-width: 65vw;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .introduction-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .introduction-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-bottom: 1%;
+  }
+  

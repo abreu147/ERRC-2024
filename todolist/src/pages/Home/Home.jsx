@@ -1,69 +1,44 @@
 import '../../App.css';
 import './Home.css'
-import { useState } from 'react';
-import Todo from '../../components/Todo/Todo.jsx';
 import React from 'react';
-import TodoForm from '../../components/TodoForm/TodoForm.jsx';
+import Introduction from '../../components/Introduction/Introduction.jsx';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import calendarioIcon from '../../img/calendar-color-icon.svg';
+import Footer from '../../components/Footer/Footer';
+
 
 function Home() {
-  const [todos, setTodos] = useState([
-    {
-      id: 1,
-      text: "Criar nova lista",
-      category: "Trabalho",
-      isCompleted: false
-    },
-    {
-      id: 2,
-      text: "Checar a lista de compras",
-      category: "Pessoal",
-      isCompleted: false
-    },
-    {
-      id: 3,
-      text: "Ler livro de react",
-      category: "Estudos",
-      isCompleted: false
-    }
-  ]);
-
-  const addTodo = (text, category) =>{
-    const newTodos = [...todos, {
-      id: Math.floor(Math.random()* 10000), 
-      text,
-      category,
-      isCompleted: false,
-    },
-    ];
-    setTodos(newTodos);
-  };
-
-  const removeTodo = (id) =>{
-    console.log("não entrou");
-    const newTodos = [...todos]
-    const filteredTodos = newTodos.filter(todo=> 
-      todo.id !== id ? todo : null
-    );
-    setTodos(filteredTodos);
-  }
-  const completeTodo = (id) =>{
-    const newTodos = [...todos]
-    newTodos.map((todo)=> todo.id === id ? todo.isCompleted = !todo.isCompleted : todo)
-    setTodos(newTodos);
-  }
-
-
 
   return (
     <div className="Home">
       
-      <div className='cardTodo'>
-        <h1>Lista de Tarefas</h1>
-        {todos.map((todo) => (
-          <Todo key={todo.id}  todo = {todo} removeTodo = {removeTodo} completeTodo = {completeTodo}/> 
-        ))}
+      <div class="background-section-home">
+          <div class="overlay-home"></div>
+          <div class="content-home">
+              <h1>21ª Escola Regional de Redes <br /> de Computadores (ERRC)</h1>
+              <p>21 anos da ERRC | novembro 27-29 | Rio Grande - RS</p>
+              <p>Campus Carreiros - FURG</p>
+              <p>C3 - Centro de Ciências Computacionais</p>
+              <div className='botoes_home_Evento'>
+                <p className='Anais'>Anais do Evento</p>
+                <p className='Local-home'>Local</p>
+              </div>
+          </div>
       </div>
-      <TodoForm addTodo= {addTodo} />
+      <div className='Resumo-Home'>
+        <h2 className='titulo-resumo-home'>Bem-vindo à ERRC 2024!</h2>
+        <Introduction />
+        <div className='DatasImportantesTitle'>
+          <img src={calendarioIcon} alt="Calendário Icon" className="calendario-icon" />
+          <h2 className='titulo-resumo-home'> Datas Importantes</h2>
+        </div>
+        <div className='Texto-Datas-Home'>
+          <h1>ERRC</h1>
+          <p> XX/XX/2024: Data limite de registro e submissão de artigos </p>
+          <p> XX/XX/2024: Data limite de registro e submissão de artigos</p>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
   

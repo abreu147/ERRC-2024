@@ -1,0 +1,35 @@
+.footer {
+    background-color: rgb(33, 33, 39);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-segments {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-segments h3{
+    margin-bottom: 4%;
+  }
+
+  .segment {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer-image {
+    max-width: 140px; /* Ajuste conforme necessário */
+    height: 120px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+  
+  .footer-text p {
+    margin: 0;
+  }
+  

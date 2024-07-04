@@ -2,11 +2,50 @@
     width: 100vw;
     height: 132px;
     display: flex;
-    justify-content: space-around;
     font-family: sans-serif;
     border-bottom: 1px solid rgba(228, 228, 228, 0.486);
     background-color: white;
     align-items: center;
+    text-align: center;
+    
+}
+
+.logo-image{
+    margin-left: 2%;
+    margin-right: 5%;
+}
+.linkedin{
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.LinkedinText{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #009ced;
+    border: 2px solid #009ced;
+    border-radius: 10px;
+    padding: 17px 38px;
+    cursor: pointer;
+    transition: color 0.6s ease, background-color 0.6s ease, transform 0.6s ease;
+}
+
+.LinkedinText:hover{
+    background-color: #009ced;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+.ContentHeader{
+    display: flex;
+    margin-left: 25%;
+}
+.Nomes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
     
 }
 
@@ -20,6 +59,7 @@
 }
 
 .HeaderC h1:hover{
-    color:rgb(0, 156, 237)
+    color:rgb(0, 156, 237);
+    transform: scale(1.05);
     
 }

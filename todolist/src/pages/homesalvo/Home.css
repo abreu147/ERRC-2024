@@ -1,0 +1,47 @@
+ss.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+s.cardTodo{
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+    border: solid 1px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    
+  }
+  
+ s .cardTodo h1{
+    text-align: center;
+  }
+  button{
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #494949;
+    
+  
+  }
+  
+  sbutton:hover{
+    transform: translateY(+1px) translateX(+1px);
+  }
+  
+ s .todo-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  sinput, select{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+  }
