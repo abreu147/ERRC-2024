@@ -20,7 +20,7 @@ export default function Header() {
             <div className="HeaderC">
                 <img src={logo} alt="Logo" className="logo-image" />
                 <div className="Nomes">
-                    <Link to="/"><h1>Início</h1></Link>
+                    <Link to="/Studing-react"><h1>Início</h1></Link>
                     <Link to="/Programacao"><h1>Programação</h1></Link>
                     <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <h1>Chamadas <i className="fas fa-chevron-down fa-xs"></i></h1>
