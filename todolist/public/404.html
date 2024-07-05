@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found</title>
+</head>
+<body>
+  <script>
+    const url = window.location.href;
+    const githubPagesUrl = 'https://' + window.location.hostname + '/seurepositorio/';
+    const newUrl = url.replace(window.location.hostname, githubPagesUrl);
+
+    window.location.href = newUrl;
+  </script>
+</body>
+</html>

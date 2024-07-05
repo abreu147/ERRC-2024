@@ -11,7 +11,7 @@
   
   .TextoFormatado p {
     font-size: 1.2em;
-    line-height: 1.22;
+    line-height: 1.52;
     white-space: pre-line; /* Preserve os espaços e quebras de linha do texto */
     margin-bottom: 3%;
   }

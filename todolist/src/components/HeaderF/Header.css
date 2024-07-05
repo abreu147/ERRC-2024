@@ -70,18 +70,17 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 10; /* Adicionado para garantir que o container tenha um z-index mais alto */
 }
-
 
 .dropdown-content {
     font-family: 'Poppins', sans-serif;
-    margin-top:2%;
     display: block;
     position: absolute;
     background-color: #007bff;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 9999; /* Valor alto para garantir que o dropdown fique acima de outros elementos */
 }
 
 .dropdown-content a {

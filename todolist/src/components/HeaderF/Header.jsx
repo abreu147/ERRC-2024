@@ -26,16 +26,20 @@ export default function Header() {
                         <h1>Chamadas <i className="fas fa-chevron-down fa-xs"></i></h1>
                         {dropdown && (
                             <div className="dropdown-content">
-                                <Link to="/chamada-errc-2023">Chamada ERRC 2024</Link>
-                                <Link to="/chamada-wrseg-2023">Chamada WRSeg 202</Link>
-                                <Link to="/sugestoes-autores">Sugestões aos Autores</Link>
+                                <Link to="/ChamadaErrc2023">Chamada ERRC 2024</Link>
+                                <Link to="/ChamadaWrseg2023">Chamada WRSeg 2024</Link>
+                                <Link to="/SugestoesAutores">Sugestões aos Autores</Link>
                             </div>
                         )}
                     </div>
                     <Link to="/Inscricoes"><h1>Inscrição</h1></Link>
-                    <h1>Local do Evento <i className="fas fa-chevron-down fa-xs"></i></h1>
-                    <h1>WRSeg</h1>
-                    <h1>Organização <i className="fas fa-chevron-down fa-xs"></i></h1>
+
+                    {/* <h1>Local do Evento <i className="fas fa-chevron-down fa-xs"></i></h1> */}
+                    
+                    <Link to="/WRSeg"><h1>WRSeg</h1></Link>
+
+                    {/* <h1>Organização <i className="fas fa-chevron-down fa-xs"></i></h1> */}
+
                     <Link to="/Premiacoes"><h1>Premiações</h1></Link>
                 </div>
                 <div className="linkedin">
