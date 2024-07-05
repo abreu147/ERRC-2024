@@ -33,8 +33,13 @@ function Home() {
         </div>
         <div className='Texto-Datas-Home'>
           <h1>ERRC</h1>
-          <p> XX/XX/2024: Data limite de registro e submissão de artigos </p>
-          <p> XX/XX/2024: Data limite de registro e submissão de artigos</p>
+          <p> 01/09/2024: Data limite de registro e submissão de artigos </p>
+          <p> 15/10/2024: Notificação de aceite dos artigos</p>
+        </div>
+        <div className='Texto-Datas-Home'>
+          <h1>WRSeg</h1>
+          <p> 01/09/2024: Data limite de registro e submissão de artigos </p>
+          <p> 15/10/2024: Notificação de aceite dos artigos</p>
         </div>
       </div>
     </div>

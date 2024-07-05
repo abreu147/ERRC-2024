@@ -22,8 +22,10 @@ function Footer() {
           </a>
         </div>
         <div className="segment">
-          <h3>Apoio</h3>
-          <p>Texto de apoio</p>
+          <h3>Contato</h3>
+          <p>abreuesttebam@gmail.com</p>
+          <p>dalmazo@furg.br</p>
+          <p>pbmarcos@furg.br</p>
         </div>
       </div>
       <div className="footer-text">
