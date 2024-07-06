@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/errc2024c3furg.shop/static/css/main.da5aae4b.css",
-    "main.js": "/errc2024c3furg.shop/static/js/main.cbf0ee2d.js",
+    "main.js": "/errc2024c3furg.shop/static/js/main.9eeb9f57.js",
     "static/js/453.d32cc427.chunk.js": "/errc2024c3furg.shop/static/js/453.d32cc427.chunk.js",
     "static/media/furg.png": "/errc2024c3furg.shop/static/media/furg.45d64adcd677936569ff.png",
     "static/media/fa-solid-900.ttf": "/errc2024c3furg.shop/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
@@ -17,11 +17,11 @@
     "static/media/calendar-color-icon.svg": "/errc2024c3furg.shop/static/media/calendar-color-icon.19f6f3a26132dc4c094da1ad763840bd.svg",
     "index.html": "/errc2024c3furg.shop/index.html",
     "main.da5aae4b.css.map": "/errc2024c3furg.shop/static/css/main.da5aae4b.css.map",
-    "main.cbf0ee2d.js.map": "/errc2024c3furg.shop/static/js/main.cbf0ee2d.js.map",
+    "main.9eeb9f57.js.map": "/errc2024c3furg.shop/static/js/main.9eeb9f57.js.map",
     "453.d32cc427.chunk.js.map": "/errc2024c3furg.shop/static/js/453.d32cc427.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da5aae4b.css",
-    "static/js/main.cbf0ee2d.js"
+    "static/js/main.9eeb9f57.js"
   ]
 }
