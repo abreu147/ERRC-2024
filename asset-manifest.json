@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.18449769.css",
-    "main.js": "/static/js/main.983277f0.js",
+    "main.css": "/static/css/main.5ac04583.css",
+    "main.js": "/static/js/main.7444b8f6.js",
     "static/js/453.d32cc427.chunk.js": "/static/js/453.d32cc427.chunk.js",
     "static/media/furg.png": "/static/media/furg.45d64adcd677936569ff.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
@@ -16,12 +16,12 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "static/media/calendar-color-icon.svg": "/static/media/calendar-color-icon.19f6f3a26132dc4c094da1ad763840bd.svg",
     "index.html": "/index.html",
-    "main.18449769.css.map": "/static/css/main.18449769.css.map",
-    "main.983277f0.js.map": "/static/js/main.983277f0.js.map",
+    "main.5ac04583.css.map": "/static/css/main.5ac04583.css.map",
+    "main.7444b8f6.js.map": "/static/js/main.7444b8f6.js.map",
     "453.d32cc427.chunk.js.map": "/static/js/453.d32cc427.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18449769.css",
-    "static/js/main.983277f0.js"
+    "static/css/main.5ac04583.css",
+    "static/js/main.7444b8f6.js"
   ]
 }
