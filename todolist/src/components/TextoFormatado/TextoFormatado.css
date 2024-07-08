@@ -1,17 +1,17 @@
 /* FormattedText.css */
 .TextoFormatado {
-    max-width: 1100px;
+    max-width: 85vw;
     margin: auto;
   }
   
   .TextoFormatado h1 {
-    font-size: 2.2em;
+    font-size: 35px;
     margin-bottom: 0.5em;
   }
   
   .TextoFormatado p {
-    font-size: 1.2em;
-    line-height: 1.52;
+    font-size: 16px;
+    line-height: 1.5;
     white-space: pre-line; /* Preserve os espaços e quebras de linha do texto */
     margin-bottom: 3%;
   }
@@ -20,5 +20,14 @@
     color: blue;
     text-decoration: underline;
     
+  }
+
+  @media (max-width: 999px) {
+    .TextoFormatado h1 {
+      font-size: 24px;
+    }
+    .TextoFormatado p {
+      font-size: 14px;
+    }
   }
   

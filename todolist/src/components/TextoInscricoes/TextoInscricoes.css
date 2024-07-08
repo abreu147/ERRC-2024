@@ -1,19 +1,19 @@
 /* InformacoesGerais.css */
 .informacoes-gerais {
     padding: 20px;
-    max-width: 1200px;
+    max-width: 85vw;
     margin: 0 auto;
     margin-top: -1%;
   }
   
   .informacoes-gerais h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
   
   .informacoes-gerais ul {
-    font-size: 20px;
+    font-size: 18pxpx;
     list-style-type: disc;
     padding-left: 20px;
   }
@@ -26,3 +26,13 @@
     font-weight: bold;
   }
   
+  @media (max-width: 999px) {
+    .informacoes-gerais h2{
+      font-size: 24px;
+    }
+
+    .informacoes-gerais ul li{
+      font-size: 14px;
+    }
+
+  }

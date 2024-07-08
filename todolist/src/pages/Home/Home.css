@@ -1,27 +1,27 @@
 * {
-    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura e altura */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body, html {
-    overflow-x: hidden; /* Evita o scroll horizontal */
+    overflow-x: hidden;
 }
-.Home{
+
+.Home {
     display: flex;
     flex-direction: column;
-
+    width: 100%;
 }
 
-.cardTodo{
+.cardTodo {
     color: white;
+}
 
-    
-  }
-  
-  .background-section-home{
+.background-section-home {
     position: relative;
     background: url('../../img/furg.png') no-repeat center center/cover;
-    height: 90vh; /* Ajuste conforme necessário */
+    height: 90vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -40,87 +40,72 @@ body, html {
 }
 
 .content-home {
+    min-height: 300px;
     position: relative;
     z-index: 2;
     text-align: center;
     animation: slide-up 1s ease-out forwards;
+    padding: 0 20px; /* Adiciona padding para evitar overflow */
+    max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura */
 }
 
 .content-home h1 {
-    font-size: 74px;
+    font-size: 4.5vw;
     font-weight: 900;
-    margin-bottom: 2%;
-}
-.content-home p {
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 1%;
+    
 }
 
-.botoes_home_Evento{
-    margin-top: 10%;
+.content-home p {
+    font-size: 1.4vw;
+    font-weight: 600;
+    
+}
+
+.botoes_home_Evento {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    
-
-
 }
 
-
-.Local-home{
+.Local-home, .Anais {
     margin-right: 5%;
-    width: 50p;
+    width: 180px; /* Aumentado para melhorar a visibilidade */
+    padding: 20px; /* Aumentado para melhorar a visibilidade */
     border: 3px solid #ffffff;
-    padding: 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: color 0.6s ease, background-color 0.6s ease, transform 0.6s ease;
+    font-size: 1.2vw; /* Ajuste do tamanho da fonte */
+}
+
+.Local-home:hover, .Anais:hover {
+    color: #ffffff;
+    background-color: #009ced;
+    border-color: #009ced;
+    transform: scale(1.05);
+}
+
+.Local-home {
     animation: slide-in-right 1s ease-out forwards;
 }
 
-.Local-home:hover{
-    color: #ffffff;
-    background-color: #009ced;
-    border-color: #009ced;
-    transform: scale(1.05);
-}
-
 .Anais {
-    margin-right: 5%;
-    width: 50p;
-    border: 3px solid #ffffff;
-    padding: 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: color 0.6s ease, background-color 0.6s ease, transform 0.6s ease;
     opacity: 0;
     transform: translateY(100%);
     animation: slide-in-left 1s ease-out forwards;
-
 }
 
-
-
-.Anais:hover{
-    color: #ffffff;
-    background-color: #009ced;
-    border-color: #009ced;
-    transform: scale(1.05);
-}
-
-
-.Resumo-Home{
+.Resumo-Home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.titulo-resumo-home{
+.titulo-resumo-home {
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 2.5vw;
     font-weight: 700;
     margin-bottom: 1%;
     margin-top: 1%;
@@ -133,26 +118,23 @@ body, html {
 }
 
 .calendario-icon {
-    width: 32px; /* Ajuste o tamanho conforme necessário */
-    height: 32px; /* Ajuste o tamanho conforme necessário */
-    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
 }
 
-
-
-.Texto-Datas-Home{
+.Texto-Datas-Home {
     width: 65vw;
-
 }
-.Texto-Datas-Home p{
+
+.Texto-Datas-Home p {
     font-family: 'Poppins', sans-serif;
     color: #333;
-    font-size: 18px;
+    font-size: 1.1vw;
     margin-bottom: 3%;
-
 }
 
-.Texto-Datas-Home h1{
+.Texto-Datas-Home h1 {
     margin-bottom: 3%;
 }
 
@@ -186,5 +168,89 @@ body, html {
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .content-home h1 {
+        font-size: 6vw;
+    }
+    .content-home p {
+        font-size: 2vw;
+    }
+    .titulo-resumo-home {
+        font-size: 4vw;
+    }
+    .Texto-Datas-Home p {
+        font-size: 2vw;
+    }
+    .Local-home, .Anais {
+        width: 140px;
+        padding: 20px;
+        font-size: 2vw;
+    }
+}
+@media (max-width: 999px) {
+
+    .Resumo-Home h2, h1{
+        font-size: 24px;
+    }
+    .Resumo-Home p{
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .background-section-home {
+        height: 70vh;
+        width: 100vw;
+    }
+    .content-home h1 {
+        font-size: 8vw;
+    }
+    .content-home p {
+        font-size: 3vw;
+    }
+    .botoes_home_Evento {
+        flex-direction: column;
+    }
+    .Local-home, .Anais {
+        width: 80%;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 4vw;
+    }
+    .titulo-resumo-home {
+        font-size: 5vw;
+    }
+    .Texto-Datas-Home {
+        width: 90vw;
+    }
+    .Texto-Datas-Home p {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-home h1 {
+        font-size: 24px;
+    }
+    .content-home p {
+        font-size: 12px;
+    }
+    .titulo-resumo-home {
+        font-size: 24px;
+    }
+    .Texto-Datas-Home p {
+        font-size: 4vw;
+    }
+    .Local-home, .Anais {
+        margin-top: 20px;
+        width: 70%;
+        padding: 10px;
+        font-size: 24px;
     }
 }

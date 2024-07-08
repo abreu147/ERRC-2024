@@ -1,6 +1,6 @@
 .introduction-container {
     padding: 5px;
-    max-width: 65vw;
+    max-width: 85vw;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     color: #333;
@@ -20,3 +20,10 @@
     margin-bottom: 1%;
   }
   
+
+@media (max-width: 999px) {
+    .introduction-container p{
+      font-size: 14px;
+    }
+  
+}

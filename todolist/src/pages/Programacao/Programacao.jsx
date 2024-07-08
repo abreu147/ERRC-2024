@@ -14,7 +14,7 @@ import BlueBar from '../../components/BlueBar/BlueBar.jsx';
 
 function Programacao() {
   return (
-    <div>
+    <div className='Programacao-div'>
       <BlueBar title="Programação" />
       <TextoFormatado title={titulo1} text={texto1} />
       <TextoFormatado title={titulo2} text={texto2} />

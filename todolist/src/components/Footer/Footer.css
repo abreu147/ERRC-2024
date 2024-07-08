@@ -33,3 +33,22 @@
     margin: 0;
   }
   
+  @media (max-width: 999px){
+    .footer-image {
+      max-width: 80px; /* Ajuste conforme necessário */
+      height: 60px;
+    }
+    .footer-text {
+      font-size: 12px;
+    }
+    .segment h3{
+      font-size: 12px;
+    }
+    .segment p{
+      font-size: 10px;
+    }
+    .footer {
+      width: 100vw;
+    }
+    
+  }

@@ -1,95 +1,132 @@
-.HeaderC{
-    width: 100vw;
-    height: 132px;
+.HeaderC {
     display: flex;
-    font-family: 'Poppins', sans-serif;
-    border-bottom: 1px solid rgba(228, 228, 228, 0.486);
-    background-color: white;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.logo-image{
-    width: 120px;
-    height: 80px;
-    margin-left: 2%;
-    margin-right: 5%;
-}
-.linkedin{
-    margin-left: 5%;
-    margin-right: 2%;
+.logo-image {
+    height: 50px;
 }
 
-.LinkedinText{
+.HeaderC h1:hover {
+    color: rgb(0, 156, 237);
+    transform: scale(1.05);
+}
+
+.Nomes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Nomes h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    color: #000;
+}
+
+.Nomes a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #009ced;
+}
+
+.dropdown-content a:hover {
+    background-color: #0056b3;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.LinkedinText {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #009ced;
     border: 2px solid #009ced;
     border-radius: 10px;
-    padding: 17px 38px;
+    padding: 10px 20px;
     cursor: pointer;
     transition: color 0.6s ease, background-color 0.6s ease, transform 0.6s ease;
 }
 
-.LinkedinText:hover{
+.LinkedinText:hover {
     background-color: #009ced;
     color: white;
     transform: scale(1.05);
 }
 
 
-.ContentHeader{
-    display: flex;
-    margin-left: 25%;
+.hamburger{
+    display: none;
 }
-.Nomes{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
+/* Responsive Design */
+@media (max-width: 999px){
     
-}
 
-.HeaderC h1{
-    cursor: pointer;
-    color: rgb(10,10,10);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
+    .logo-image {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .Nomes {
+        display: none;
+    }
 
-.HeaderC h1:hover{
-    color:rgb(0, 156, 237);
-    transform: scale(1.05);
-    
-}
+    .Nomes.show {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: white;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    z-index: 10; /* Adicionado para garantir que o container tenha um z-index mais alto */
-}
-
-.dropdown-content {
-    font-family: 'Poppins', sans-serif;
-    display: block;
-    position: absolute;
-    background-color: #007bff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 9999; /* Valor alto para garantir que o dropdown fique acima de outros elementos */
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 15px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #0056b3;
+    .linkedin {
+        margin-top: 10px;
+    }
 }

@@ -54,7 +54,6 @@ function WRSeg() {
         <TextoFormatado title={titulo3} text={texto3} />
         <TextoFormatado title={titulo4} text={texto4} />
         <TextoFormatado title={titulo5} text={texto5} />
-        <p>teste</p>
     </div>
   )
 }
