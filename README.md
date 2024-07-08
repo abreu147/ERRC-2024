@@ -1,2 +1,1 @@
-# Studing-react
- Studing-react to improve my knowledge
+# Website devloped to support ERRC-2024
