@@ -1,6 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import logo from '../../img/LogoC3BrancoG.png';
+import logo from '../../img/logostd.png';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { useState } from 'react';
 

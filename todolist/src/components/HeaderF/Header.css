@@ -10,7 +10,8 @@
 }
 
 .logo-image {
-    height: 50px;
+    height: 100px;
+    width: 135px;
 }
 
 .HeaderC h1:hover {
@@ -97,6 +98,8 @@
     
 
     .logo-image {
+        width: 68px;
+        height: 50px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);

@@ -8,7 +8,7 @@ import BlueBar from '../../components/BlueBar/BlueBar.jsx';
 function Premiacoes() {
 
   const titulo1 = 'Premiações para os artigos';
-  const texto1 = `Os melhores trabalhos do ERRC 2023 receberão um certificado durante a cerimônia durante o evento.
+  const texto1 = `Os melhores trabalhos do ERRC 2024 receberão um certificado durante a cerimônia durante o evento.
 
   **•Melhor Artigo de Pós-Graduação (Trilha Principal):** Trabalhos que tenham como primeiro autor alunos de Mestrado ou Doutorado.
 
@@ -18,7 +18,7 @@ function Premiacoes() {
 
   **Regras de Avaliação e Seleção:**
 
-    **•Melhor Artigo:** Os melhores artigos serão selecionados com base nas notas da avaliações via JEMS3. Os artigos melhores avaliados serão selecionados para apresentação em sessão especial no ERRC 2023. A avaliação final será realizada pelo Comitê de Avaliação e levará em conta a qualidade do artigo e também a apresentação do trabalho para a audiência.
+    **•Melhor Artigo:** Os melhores artigos serão selecionados com base nas notas da avaliações via JEMS3. Os artigos melhores avaliados serão selecionados para apresentação em sessão especial no ERRC 2024. A avaliação final será realizada pelo Comitê de Avaliação e levará em conta a qualidade do artigo e também a apresentação do trabalho para a audiência.
     
     **•Melhor Apresentação:** Será definida baseado em voto popular. Teremos um formulário divulgado durante o evento para que os participantes votem em qual foi a melhor apresentação.
   `;

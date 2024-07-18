@@ -5,7 +5,7 @@ import BlueBar from './../../components/BlueBar/BlueBar';
 import TextoFormatado from './../../components/TextoFormatado/TextoFormatado';
 
 const titulo1 = `Chamada para Trabalhos`;
-const texto1 = `Autores são convidados a submeter artigos contendo resultados de suas pesquisas ou suas propostas fundamentadas. Neste ano, além dos trabalhos tradicionalmente publicados (por exemplo resultados de pesquisas), também encorajamos a submissão de trabalhos com teor predominante prático (por exemplo, utilização de tecnologias ou implantação de novas ferramentas). Artigos com propostas de pesquisa em andamento também são bem-vindos. Neste sentido, a edição de 2023 contemplará duas trilha de trabalhos:
+const texto1 = `Autores são convidados a submeter artigos contendo resultados de suas pesquisas ou suas propostas fundamentadas. Neste ano, além dos trabalhos tradicionalmente publicados (por exemplo resultados de pesquisas), também encorajamos a submissão de trabalhos com teor predominante prático (por exemplo, utilização de tecnologias ou implantação de novas ferramentas). Artigos com propostas de pesquisa em andamento também são bem-vindos. Neste sentido, a edição de 2024 contemplará duas trilha de trabalhos:
 
 **• Regulares (Trilha Principal):** Esta trilha apresentará os trabalhos de pesquisa relacionados às redes de computadores, desenvolvidos pelos acadêmicos de graduação das instituições de ensino superior, preferencialmente, da região sul do Brasil. Esta trilha também apresentará os trabalhos de pesquisa relacionados às redes de computadores, desenvolvidos por estudantes de pós-graduação das instituições de ensino superior, preferencialmente, da região sul do Brasil. Discuta novas abordagens, tecnologias e soluções inovadoras.
 
