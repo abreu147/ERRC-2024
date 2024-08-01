@@ -2,9 +2,12 @@ import React from 'react'
 import './Localizacao.css'
 import TextoFormatado from '../../components/TextoFormatado/TextoFormatado.jsx';
 import BlueBar from '../../components/BlueBar/BlueBar.jsx';
+import Maps from '../../components/Maps/Maps.jsx';
+const titulo12 = "Como chegar?";
+const texto12 = `A Escola Regional de Redes de Computadores (ERRC 2024), um evento de grande relevância na área de tecnologia, terá sua realização no CIDEC-SUL da Universidade Federal do Rio Grande (FURG), localizada em Rio Grande. 
 
-const titulo12 = "Em Breve";
-const texto12 = "";
+    O CIDEC-SUL está situado no Campus Carreiros da FURG, Rio Grande - RS.
+    `;
 /* 
   const titulo1 = "Inscrição nos Minicursos (Gratuito para inscritos na ERRC 2024)";
   const texto1 = `Limite de vagas. Portanto terão prioridade participantes que preencherem o formulário. As vagas remanescentes serão alocadas por ordem de chegada.
@@ -20,6 +23,11 @@ function Localizacao() {
     <div className='Localizacao-div'>
       <BlueBar title="Localização" />
       <TextoFormatado title={titulo12} text={texto12} />
+      <div className='DivMap'>
+        <h1> 📍Localização</h1>
+        <Maps/>
+      </div>
+      
       {/* <TextoFormatado title={} text={} /> */}
     </div>
     

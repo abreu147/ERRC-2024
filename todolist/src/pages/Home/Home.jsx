@@ -1,5 +1,6 @@
 import '../../App.css';
 import './Home.css'
+import { Link } from "react-router-dom";
 import React from 'react';
 import Introduction from '../../components/Introduction/Introduction.jsx';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -19,7 +20,7 @@ function Home() {
               <p>CIDEC-SUL Campus Carreiros - FURG</p>
               <p>C3 - Centro de Ciências Computacionais</p>
               <div className='botoes_home_Evento'>
-                <p className='Local-home'>Local</p>
+                <Link className='Local-home' to="/Localizacao">Local</Link>
               </div>
           </div>
       </div>

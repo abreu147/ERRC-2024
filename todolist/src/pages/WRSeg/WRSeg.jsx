@@ -12,8 +12,8 @@ const titulo2 = "Chamada para Trabalhos";
 const texto2 = `Autores são convidados a submeter artigos contendo resultados iniciais/finais das suas pesquisas ou propostas. Neste ano, além dos trabalhos tradicionalmente publicados, também encorajamos a submissão de trabalhos com teor predominante prático.`;
 
 const titulo3 = "Datas Importantes";
-const texto3 = `01/09/2024: Data limite de registro e submissão de artigos
-15/10/2024: Notificação de aceite dos artigos`
+const texto3 = `01/09/2024: Abertura do período de submissões
+07/10/2024: Data limite de registro e submissão de artigos`
 
 const titulo4 = "Tópicos de interesse (lista não exaustiva)";
 const texto4= `Anonimato e privacidade computacional
