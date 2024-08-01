@@ -88,6 +88,8 @@ body, html {
 
 .Local-home {
     animation: slide-in-right 1s ease-out forwards;
+    color: inherit;
+    text-decoration: none;
 }
 
 .Anais {

@@ -1,0 +1,15 @@
+.Localizacao-div{
+    width: 100vw;
+}
+
+.DivMap{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.DivMap h1{
+    margin-bottom: 15px;
+}

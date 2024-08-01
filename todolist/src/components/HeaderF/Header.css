@@ -47,6 +47,7 @@
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 99;
+    cursor: pointer;
 }
 
 .dropdown-content a {
@@ -63,6 +64,10 @@
 
 .dropdown-content a:hover {
     background-color: #0056b3;
+}
+
+.dropdown h1{
+    cursor: pointer;
 }
 
 .linkedin {
