@@ -70,8 +70,8 @@ body, html {
 
 .Local-home, .Anais {
     margin-right: 5%;
-    width: 180px; /* Aumentado para melhorar a visibilidade */
-    padding: 20px; /* Aumentado para melhorar a visibilidade */
+    width: 180px; /*Aumentado para melhorar a visibilidade */
+    padding: 20px; /*Aumentado para melhorar a visibilidade */
     border: 3px solid #ffffff;
     border-radius: 5px;
     cursor: pointer;
