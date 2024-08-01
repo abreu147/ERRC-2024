@@ -8,7 +8,7 @@ import BlueBar from '../../components/BlueBar/BlueBar.jsx';
 function Inscricao() {
   return (
     <div className='Container-inscricao'>
-        <BlueBar title="Inscrição" />
+        <BlueBar title="Inscrições" />
         <InformacoesGerais/>
         
     </div>

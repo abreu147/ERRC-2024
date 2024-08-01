@@ -35,6 +35,7 @@ export default function Header() {
                 <div className={`Nomes ${menuOpen ? 'show' : ''}`}>
                     <Link to="/" onClick={closeMenu}><h1>Início</h1></Link>
                     <Link to="/Programacao" onClick={closeMenu}><h1>Programação</h1></Link>
+                    
                     <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <h1>Chamadas<i className="fas fa-chevron-down fa-xs"></i></h1>
                         {dropdown && (
@@ -45,6 +46,29 @@ export default function Header() {
                             </div>
                         )}
                     </div>
+
+                    <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <h1>Local do evento<i className="fas fa-chevron-down fa-xs"></i></h1>
+                        {dropdown && (
+                            <div className="dropdown-content">
+                                <Link to="/Localizacao" onClick={closeMenu}>Localização</Link>
+                                <Link to="/Hospedagem" onClick={closeMenu}>Hospedagem</Link>
+                                <Link to="/Alimentacao" onClick={closeMenu}>Alimentação</Link>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <h1>Organização<i className="fas fa-chevron-down fa-xs"></i></h1>
+                        {dropdown && (
+                            <div className="dropdown-content">
+                                <Link to="/Edicao2024" onClick={closeMenu}>Edição 2024</Link>
+                                <Link to="/EdicoesAnteriores" onClick={closeMenu}>Edições  Anteriores</Link>
+                                <Link to="/ComiteAcessor" onClick={closeMenu}>Comitê Assessor</Link>
+                            </div>
+                        )}
+                    </div>
+
                     <Link to="/Inscricoes" onClick={closeMenu}><h1>Inscrição</h1></Link>
                     <Link to="/WRSeg" onClick={closeMenu}><h1>WRSeg</h1></Link>
                     <Link to="/Premiacoes" onClick={closeMenu}><h1>Premiações</h1></Link>

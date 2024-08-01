@@ -15,11 +15,10 @@ function Home() {
           <div class="overlay-home"></div>
           <div class="content-home">
               <h1>21ª Escola Regional de Redes <br /> de Computadores (ERRC)</h1>
-              <p>21 anos da ERRC | novembro 27-29 | Rio Grande - RS</p>
-              <p>Campus Carreiros - FURG</p>
+              <p>Novembro 27-29 | Rio Grande - RS</p>
+              <p>CIDEC-SUL Campus Carreiros - FURG</p>
               <p>C3 - Centro de Ciências Computacionais</p>
               <div className='botoes_home_Evento'>
-                <p className='Anais'>Anais do Evento</p>
                 <p className='Local-home'>Local</p>
               </div>
           </div>
@@ -33,13 +32,13 @@ function Home() {
         </div>
         <div className='Texto-Datas-Home'>
           <h1>ERRC</h1>
-          <p> 01/09/2024: Data limite de registro e submissão de artigos </p>
-          <p> 15/10/2024: Notificação de aceite dos artigos</p>
+          <p> 01/09/2024: Abertura do período de submissões</p>
+          <p> 07/10/2024: Data limite de registro e submissão de artigos</p>
         </div>
         <div className='Texto-Datas-Home'>
           <h1>WRSeg</h1>
-          <p> 01/09/2024: Data limite de registro e submissão de artigos </p>
-          <p> 15/10/2024: Notificação de aceite dos artigos</p>
+          <p> 01/09/2024: Abertura do período de submissões</p>
+          <p> 07/10/2024: Data limite de registro e submissão de artigos</p>
         </div>
       </div>
     </div>

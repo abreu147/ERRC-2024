@@ -1,5 +1,5 @@
 import React from 'react'
-import './Programacao.css'
+import './EdicoesAnteriores.css'
 import TextoFormatado from '../../components/TextoFormatado/TextoFormatado.jsx';
 import BlueBar from '../../components/BlueBar/BlueBar.jsx';
 
@@ -15,10 +15,10 @@ const texto12 = "";
   const texto2 = "Cada artigo terá um slot de **15 minutos para apresentação**, seguido de **5 minutos para perguntas**. A apresentação dos artigos acontecerá na sala definida na programação. A não apresentação presencial do artigo implica no trabalho ser excluído dos anais do evento e do Portal de Conteúdos da SBC.";
  */
 
-function Programacao() {
+function EdicoesAnteriores() {
   return (
-    <div className='Programacao-div'>
-      <BlueBar title="Programação" />
+    <div className='EdicoesAnteriores-div'>
+      <BlueBar title="Edições Anteriores" />
       <TextoFormatado title={titulo12} text={texto12} />
       {/* <TextoFormatado title={} text={} /> */}
     </div>
@@ -27,4 +27,4 @@ function Programacao() {
   )
 }
 
-export default Programacao
+export default EdicoesAnteriores
