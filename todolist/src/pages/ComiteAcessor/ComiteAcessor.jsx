@@ -18,7 +18,7 @@ const texto12 = "";
 function ComiteAcessor() {
   return (
     <div className='ComiteAcessor-div'>
-      <BlueBar title="Comitê Acessor" />
+      <BlueBar title="Comitê Assessor" />
       <TextoFormatado title={titulo12} text={texto12} />
       {/* <TextoFormatado title={} text={} /> */}
     </div>

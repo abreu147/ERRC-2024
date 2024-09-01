@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import realizacaoImage from '../../img/sbc.png'; // substitua pelo caminho correto da imagem
 import organizacaoImage from '../../img/LogoC3BrancoG.png'; // substitua pelo caminho correto da imagem
+import apoioImage from '../../img/fapergs.png'; // substitua pelo caminho correto da imagem
 
 function Footer() {
   return (
@@ -12,6 +13,14 @@ function Footer() {
           
           <a href="https://www.sbc.org.br/" target="_blank" rel="noopener noreferrer">
             <img src={realizacaoImage} alt="Realização" className="footer-image" />
+          </a>
+          
+        </div>
+        <div className="segment">
+          <h3>Apoio Financeiro</h3>
+          
+          <a href="https://www.fapergs.rs.gov.br/" target="_blank" rel="noopener noreferrer">
+            <img src={apoioImage} alt="Apoio Financeiro" className="footer-image" />
           </a>
           
         </div>
