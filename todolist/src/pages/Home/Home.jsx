@@ -35,11 +35,17 @@ function Home() {
           <h1>ERRC</h1>
           <p> 02/09/2024: Abertura do período de submissões</p>
           <p> 07/10/2024: Data limite de registro e submissão de artigos</p>
+          <p> 08/11/2024: Notificação de aceite dos artigos</p>
+          <p> 15/11/2024: Data limite para envio da versão final de artigos aceitos</p>
+          <p> 27/11/2024: Início do evento</p>
         </div>
         <div className='Texto-Datas-Home'>
           <h1>WRSeg</h1>
           <p> 02/09/2024: Abertura do período de submissões</p>
           <p> 07/10/2024: Data limite de registro e submissão de artigos</p>
+          <p> 08/11/2024: Notificação de aceite dos artigos</p>
+          <p> 15/11/2024: Data limite para envio da versão final de artigos aceitos</p>
+          <p> 27/11/2024: Início do evento</p>
         </div>
       </div>
     </div>

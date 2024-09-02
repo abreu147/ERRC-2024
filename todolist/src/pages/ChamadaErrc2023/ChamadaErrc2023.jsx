@@ -6,23 +6,40 @@ import TextoFormatado from './../../components/TextoFormatado/TextoFormatado';
 
 
 const titulo1 = `Chamada para Trabalhos`;
-const texto1 = `Autores são convidados a submeter artigos contendo resultados de suas pesquisas ou suas propostas fundamentadas. Neste ano, além dos trabalhos tradicionalmente publicados (por exemplo resultados de pesquisas), também encorajamos a submissão de trabalhos com teor predominante prático (por exemplo, utilização de tecnologias ou implantação de novas ferramentas). Artigos com propostas de pesquisa em andamento também são bem-vindos. Neste sentido, a edição de 2024 contemplará duas trilhas de trabalhos:
+const texto1 = `A Escola Regional de Redes de Computadores (ERRC) é o principal evento regional sobre redes de computadores e sistemas distribuídos no Brasil. Embora organizada na região sul, a ERRC aceita submissões de qualquer localidade e não está restrita à área acadêmica; casos de cooperação entre universidades e empresas são fortemente desejáveis.
 
-**• Regulares (Trilha Principal):** Esta trilha apresentará os trabalhos de pesquisa relacionados às redes de computadores, desenvolvidos pelos acadêmicos de graduação e pós-graduação das instituições de ensino superior, preferencialmente, da região sul do Brasil. O objetivo é discutir novas abordagens, tecnologias e soluções inovadoras focadas em redes de computadores.
+Convidamos os autores a submeterem artigos com resultados de suas pesquisas, mesmo que em estágio inicial ou com resultados preliminares. Como estamos na era da pesquisa orientada por dados, valorizamos artigos que compartilhem seus dados de maneira aberta ou apresentem artefatos de forma reprodutível. Trabalhos com foco prático, como aplicações de novas tecnologias, como métodos e ferramentas da indústria da Internet, também são bem-vindos. A edição de 2024 incluirá duas trilhas de submissão:
 
-**• Experiências e Demonstrações:** trabalhos que reportam implementações de trabalhos técnicos ou experiências práticas com técnicas ou tecnologias emergentes, que tendem a ser realizados em ambientes extra-acadêmicos. Estes podem contemplar a utilização de tecnologias relacionadas a rede (e.g., Mininet) em sala de aula ou a implantação de ferramentas na infraestrutura da rede das instituições. O objetivo é apresentar casos de estudo, implementações bem-sucedidas e lições aprendidas.
+•**Trilha Principal:** Para trabalhos de pesquisa relacionados a redes de computadores, voltados para acadêmicos de instituições de ensino técnico, superior ou de pós-graduação. Esta trilha discute novas abordagens, tecnologias, soluções inovadoras, coleta de dados e reprodutibilidade de experimentos.
 
-Os artigos submetidos devem conter até **XX páginas em língua portuguesa ou inglesa**. A formatação do texto deve seguir o **novo estilo da SBC**, disponível para **download aqui (https://github.com/LMBertholdo/template_sbc)**. Caso o artigo seja escrito em português, será necessário um **Abstract** em inglês junto com o **Resumo** em português; caso o artigo seja escrito em inglês, não é necessário **Resumo** em português, mas é necessário o **Abstract** em inglês. O número máximo de páginas inclui resumo, abstract, figuras, diagramas, referências e anexos. Todos artigos submetidos deverão conter nomes dos autores, incluindo suas respectivas afiliações, após o título.
+•**Trilha de Experiências e Demonstrações:** Para trabalhos que relatam implementações técnicas ou experiências práticas com técnicas ou tecnologias emergentes, geralmente realizadas em ambientes extra-acadêmicos. Podem incluir o uso de tecnologias de rede em sala de aula ou a implementação de ferramentas na infraestrutura de redes da indústria. Os artigos desta trilha devem apresentar casos de uso, detalhes de implementação e lições aprendidas.
 
-As submissões devem ser feitas até às **23:59 do dia 07/10/2024** através do JEMS3 da ERRC 2024 (https://jems3.sbc.org.br/errc2024).
+Os artigos submetidos à Escola pdem ser escritos em português ou inglês, e devem seguir o **novo formato da SBC**, que é inédito e será usado pela primeira vez durante o ERRC. Artigos em português devem incluir um abstract em inglês e um resumo em português; artigos em inglês precisam conter apenas do abstract. Aceitamos duas modalidades de submissão: **artigos completos** com até 8 páginas e **resumos estendidos** com até 4 páginas. O número total de páginas deve incluir resumo, abstract, figuras, diagramas, referências e anexos. Todos os artigos devem incluir os nomes dos autores e suas respectivas afiliações após o título.
 
+O template de estilo da SBC está disponível somente em formato LaTeX. O template pode ser obtido a partir deste repositório em formato ZIP **(https://github.com/LMBertholdo/template_sbc)**, ou em breve, no Overleaf (link a ser atualizado em um futuro próximo).
+
+As submissões devem ser feitas até às **23:59 do dia 07/10/2024** através do JEMS3 da ERRC 2024 **(https://jems3.sbc.org.br/errc2024)**.`
+;
+
+const titulo2 = `Processo de Revisão e Critérios`;
+const texto2 = `A ERRC 2024 convida a dois tipos de submissões:
+
+•**Artigos completos** (até 8 páginas para texto, figuras, referências e anexos) que descrevem pesquisas originais, com concisão e aderência apropriada aos tópicos e temas que abordam.
+
+•**Artigos curtos** (até 4 páginas para texto, figuras, referências e anexos) que apresentam trabalhos menos maduros, mas que demonstram um grande potencial, OU oferecem resultados que não justificam uma submissão completa. Artigos curtos podem articular uma visão de alto nível e descrever direções futuras desafiadoras que os autores acreditam que a comunidade deve abordar; validar, verificar ou atualizar resultados importantes; ou apresentar novas ideias que desafiem pressupostos existentes. Nosso plano é designar um subconjunto de revisores exclusivamente para a avaliação de artigos curtos. Esses revisores serão lembrados das expectativas específicas para artigos curtos.
+
+**Qualquer submissão que exceda o limite de páginas para artigos curtos será avaliada como um artigo completo.**
+
+O processo de revisão será realizado por pelo menos três revisores. 
+
+A ERRC 2024 concederá prêmios para as submissões de artigos, recebendo um certificado durante a cerimonia de encerramento do evento. Todos os artigos aceitos são elegíveis para estes prêmios: (1) Prêmio de Melhor Artigo da Trilha Principal; (2) prêmio de Melhor Artigo de Estudante de Graduação; (3) prêmio para o melhor trabalho da Trilha de Experiências; e (4) um prêmio para a melhor apresentação. 
 `;
 
-const titulo2 = `Comitê de Programa`;
-const texto2 = `Cada trabalho será avaliado por três ou mais especialistas. A lista dos membros do comitê de programa está disponível aqui.`;
+const titulo3 = `Comitê de Programa`;
+const texto3 = `Cada trabalho será avaliado por três ou mais especialistas. A lista dos membros do comitê de programa está disponível aqui.`;
 
-const titulo3 = `Tópicos de Interesse (lista não exaustiva)`;
-const texto3 = `Arquitetura de redes
+const titulo4 = `Tópicos de Interesse (lista não exaustiva)`;
+const texto4 = `Arquitetura de redes
 Blockchain
 Computação na nuvem
 Computação orientada a serviços
@@ -62,11 +79,6 @@ TV Digital
 Virtualização de Funções de Rede (NFV)
 Virtualização de redes`;
 
-const titulo4 = `Instruções aos Autores`;
-const texto4 = `Todos os artigos devem ser elaborados no **novo formato da SBC (https://github.com/LMBertholdo/template_sbc)**, com tamanho mínimo de 4 páginas e máximo de 6 páginas em língua portuguesa ou inglesa. A formatação do texto deve seguir o estilo da SBC. Caso o artigo seja escrito em português, será necessário um Abstract em inglês junto com o Resumo em português; caso o artigo seja escrito em inglês, não é necessário Resumo em português, mas é necessário o Abstract em inglês. Todos artigos submetidos deverão conter nomes dos autores, incluindo suas respectivas afiliações após o título.`;
-
-const textoEmBreve = 'Em breve';
-
 function ChamadaErrc2023() {
   return (
     <div className='Container-Chamada-errc-2023'>
@@ -75,6 +87,7 @@ function ChamadaErrc2023() {
         <TextoFormatado title={titulo2} text={texto2} />
         <TextoFormatado title={titulo3} text={texto3} />
         <TextoFormatado title={titulo4} text={texto4} />
+
     </div>
   )
 }
