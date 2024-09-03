@@ -14,7 +14,7 @@ Convidamos os autores a submeterem artigos com resultados de suas pesquisas, mes
 
 •**Trilha de Experiências e Demonstrações:** Para trabalhos que relatam implementações técnicas ou experiências práticas com técnicas ou tecnologias emergentes, geralmente realizadas em ambientes extra-acadêmicos. Podem incluir o uso de tecnologias de rede em sala de aula ou a implementação de ferramentas na infraestrutura de redes da indústria. Os artigos desta trilha devem apresentar casos de uso, detalhes de implementação e lições aprendidas.
 
-Os artigos submetidos à Escola pdem ser escritos em português ou inglês, e devem seguir o **novo formato da SBC**, que é inédito e será usado pela primeira vez durante o ERRC. Artigos em português devem incluir um abstract em inglês e um resumo em português; artigos em inglês precisam conter apenas do abstract. Aceitamos duas modalidades de submissão: **artigos completos** com até 8 páginas e **resumos estendidos** com até 4 páginas. O número total de páginas deve incluir resumo, abstract, figuras, diagramas, referências e anexos. Todos os artigos devem incluir os nomes dos autores e suas respectivas afiliações após o título.
+Os artigos submetidos à Escola pdem ser escritos em português ou inglês, e devem seguir o **novo formato da SBC**, que é inédito e será usado pela primeira vez durante o ERRC. Artigos em português devem incluir um abstract em inglês e um resumo em português; artigos em inglês precisam conter apenas do abstract. Aceitamos duas modalidades de submissão: **artigos completos** com até 5 páginas e **artigos curtos** com até 3 páginas. O número total de páginas deve incluir resumo, abstract, figuras, diagramas, referências e anexos. Todos os artigos devem incluir os nomes dos autores e suas respectivas afiliações após o título.
 
 O template de estilo da SBC está disponível somente em formato LaTeX. O template pode ser obtido a partir deste repositório em formato ZIP **(https://github.com/LMBertholdo/template_sbc)**, ou em breve, no Overleaf (link a ser atualizado em um futuro próximo).
 
@@ -24,9 +24,9 @@ As submissões devem ser feitas até às **23:59 do dia 07/10/2024** através do
 const titulo2 = `Processo de Revisão e Critérios`;
 const texto2 = `A ERRC 2024 convida a dois tipos de submissões:
 
-•**Artigos completos** (até 8 páginas para texto, figuras, referências e anexos) que descrevem pesquisas originais, com concisão e aderência apropriada aos tópicos e temas que abordam.
+•**Artigos completos** (até 5 páginas para texto, figuras, referências e anexos) que descrevem pesquisas originais, com concisão e aderência apropriada aos tópicos e temas que abordam.
 
-•**Artigos curtos** (até 4 páginas para texto, figuras, referências e anexos) que apresentam trabalhos menos maduros, mas que demonstram um grande potencial, OU oferecem resultados que não justificam uma submissão completa. Artigos curtos podem articular uma visão de alto nível e descrever direções futuras desafiadoras que os autores acreditam que a comunidade deve abordar; validar, verificar ou atualizar resultados importantes; ou apresentar novas ideias que desafiem pressupostos existentes. Nosso plano é designar um subconjunto de revisores exclusivamente para a avaliação de artigos curtos. Esses revisores serão lembrados das expectativas específicas para artigos curtos.
+•**Artigos curtos** (até 3 páginas para texto, figuras, referências e anexos) que apresentam trabalhos menos maduros, mas que demonstram um grande potencial, OU oferecem resultados que não justificam uma submissão completa. Artigos curtos podem articular uma visão de alto nível e descrever direções futuras desafiadoras que os autores acreditam que a comunidade deve abordar; validar, verificar ou atualizar resultados importantes; ou apresentar novas ideias que desafiem pressupostos existentes. Nosso plano é designar um subconjunto de revisores exclusivamente para a avaliação de artigos curtos. Esses revisores serão lembrados das expectativas específicas para artigos curtos.
 
 **Qualquer submissão que exceda o limite de páginas para artigos curtos será avaliada como um artigo completo.**
 
