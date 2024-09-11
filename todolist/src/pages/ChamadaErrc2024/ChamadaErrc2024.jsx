@@ -1,9 +1,9 @@
-import './ChamadaErrc2023.css'
+import './ChamadaErrc2024.css'
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import BlueBar from './../../components/BlueBar/BlueBar';
-import TextoFormatado from './../../components/TextoFormatado/TextoFormatado';
-
+import BlueBar from '../../components/BlueBar/BlueBar';
+import TextoFormatado from '../../components/TextoFormatado/TextoFormatado';
+import { Link } from "react-router-dom";
 
 const titulo1 = `Chamada para Trabalhos`;
 const texto1 = `A Escola Regional de Redes de Computadores (ERRC) é o principal evento regional sobre redes de computadores e sistemas distribuídos no Brasil. Embora organizada na região sul, a ERRC aceita submissões de qualquer localidade e não está restrita à área acadêmica; casos de cooperação entre universidades e empresas são fortemente desejáveis.
@@ -71,7 +71,6 @@ Redes sustentáveis (Green Networking)
 Redes tolerantes a atrasos/interrupções
 Redes veiculares
 Roteamento, comutação e endereçamento
-Segurança em redes
 Serviços Web
 Tecnologia e acesso de banda larga
 Tolerância a falhas e resiliência
@@ -79,7 +78,7 @@ TV Digital
 Virtualização de Funções de Rede (NFV)
 Virtualização de redes`;
 
-function ChamadaErrc2023() {
+function ChamadaErrc2024() {
   return (
     <div className='Container-Chamada-errc-2023'>
         <BlueBar title="Chamada ERRC 2024" />
@@ -92,4 +91,4 @@ function ChamadaErrc2023() {
   )
 }
 
-export default ChamadaErrc2023;
+export default ChamadaErrc2024;

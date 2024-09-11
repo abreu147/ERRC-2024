@@ -10,8 +10,8 @@ import Inscricoes from "./pages/Inscricoes/Inscricoes.jsx";
 import ErrorPage from './pages/ErrorPage/ErrorPage.jsx';
 import Programacao from './pages/Programacao/Programacao.jsx';
 import Premiacoes from './pages/Premiacoes/Premiacoes.jsx';
-import ChamadaWrseg2023 from './pages/ChamadaWrseg2023/ChamadaWrseg2023.jsx';
-import ChamadaErrc2023 from './pages/ChamadaErrc2023/ChamadaErrc2023.jsx';
+import ChamadaWrseg2024 from './pages/ChamadaWrseg2024/ChamadaWrseg2024.jsx';
+import ChamadaErrc2024 from './pages/ChamadaErrc2024/ChamadaErrc2024.jsx';
 import SugestoesAutores from './pages/SugestoesAutores/SugestoesAutores.jsx';
 import Localizacao from './pages/Localizacao/Localizacao.jsx';
 import Hospedagem from './pages/Hospedagem/Hospedagem.jsx';
@@ -49,12 +49,12 @@ const router = createBrowserRouter(
           element: <Premiacoes />
         },
         {
-          path: "chamadaWrseg2023",
-          element: <ChamadaWrseg2023 />
+          path: "chamadaWrseg2024",
+          element: <ChamadaWrseg2024 />
         },
         {
-          path: "chamadaErrc2023",
-          element: <ChamadaErrc2023 />
+          path: "chamadaErrc2024",
+          element: <ChamadaErrc2024 />
         },
         {
           path: "sugestoesAutores",

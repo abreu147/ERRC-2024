@@ -42,9 +42,20 @@ Software seguro: desenvolvimento, testes e certificação
 Técnicas e sistemas para identificação biométrica
 Votação eletrônica segura`;
 
-const titulo5 = "Submissão de Trabalhos";
-const texto5 = `Serão aceitos trabalhos: artigos com no mínimo 4 (quatro) e máximo de 6(seis) páginas. O número máximo de páginas para a modalidade inclui resumo, abstract, figuras, referências e anexos. O texto pode ser escrito nos idiomas português, espanhol ou inglês, seguindo os formatos (LaTeX e Word) disponíveis no site da SBC, através do endereço http://www.sbc.org.br (menu Documentos, Publicações/Templates para Artigos e Capítulos de Livros). A submissão de trabalhos será exclusivamente eletrônica.`;
+const titulo5 = `Processo de Revisão e Critérios`;
+const texto5 = `A WRSeg 2024 convida a dois tipos de submissões:
 
+•**Artigos completos** (até 5 páginas para texto, figuras, referências e anexos) que descrevem pesquisas originais, com concisão e aderência apropriada aos tópicos e temas que abordam.
+
+•**Artigos curtos** (até 3 páginas para texto, figuras, referências e anexos) que apresentam trabalhos menos maduros, mas que demonstram um grande potencial, OU oferecem resultados que não justificam uma submissão completa. Artigos curtos podem articular uma visão de alto nível e descrever direções futuras desafiadoras que os autores acreditam que a comunidade deve abordar; validar, verificar ou atualizar resultados importantes; ou apresentar novas ideias que desafiem pressupostos existentes. Nosso plano é designar um subconjunto de revisores exclusivamente para a avaliação de artigos curtos. Esses revisores serão lembrados das expectativas específicas para artigos curtos.
+
+**Qualquer submissão que exceda o limite de páginas para artigos curtos será avaliada como um artigo completo.**
+
+O processo de revisão será realizado por pelo menos três revisores. 
+
+O WRSeg 2024 concederá prêmios para as submissões de artigos, recebendo um certificado durante a cerimonia de encerramento do evento. Todos os artigos aceitos são elegíveis para estes prêmios: (1) Prêmio de Melhor Artigo da Trilha Principal; (2) prêmio de Melhor Artigo de Estudante de Graduação; e (3) um prêmio para a melhor apresentação. 
+
+`;
 function WRSeg() {
   return (
     <div className='Container-Chamada-errc-2023'>

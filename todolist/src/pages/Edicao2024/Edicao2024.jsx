@@ -17,7 +17,7 @@ Prof. Dr. Pedro de Botelho Marcos (FURG)`
 
 const titulo3 = "Organização do Comitê de Programa do WRSeg";
 const texto3 = `Prof. Dr. Bruno Lopes Dalmazo (FURG)
-Prof. Charles Christian Miers (UDESC)`
+Prof. Dr. Charles Christian Miers (UDESC)`
 ;
 
 

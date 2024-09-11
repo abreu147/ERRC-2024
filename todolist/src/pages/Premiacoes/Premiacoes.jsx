@@ -27,7 +27,7 @@ function Premiacoes() {
   const texto2 = `A definir`
   return (
     <div className='Container-Premiacoes'>
-        <BlueBar title="Premiacoes" />
+        <BlueBar title="Premiações" />
         <TextoFormatado title={titulo1} text={texto1} />
         <TextoFormatado title={titulo2} text={texto2} />
         

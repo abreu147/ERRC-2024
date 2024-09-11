@@ -40,8 +40,8 @@ export default function Header() {
                         <h1>Chamadas<i className="fas fa-chevron-down fa-xs"></i></h1>
                         {dropdown && (
                             <div className="dropdown-content">
-                                <Link to="/ChamadaErrc2023" onClick={closeMenu}>Chamada ERRC 2024</Link>
-                                <Link to="/ChamadaWrseg2023" onClick={closeMenu}>Chamada WRSeg 2024</Link>
+                                <Link to="/ChamadaErrc2024" onClick={closeMenu}>Chamada ERRC 2024</Link>
+                                <Link to="/ChamadaWrseg2024" onClick={closeMenu}>Chamada WRSeg 2024</Link>
                                 <Link to="/SugestoesAutores" onClick={closeMenu}>Sugestões aos Autores</Link>
                             </div>
                         )}
