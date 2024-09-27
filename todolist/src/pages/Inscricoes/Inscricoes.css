@@ -70,3 +70,63 @@
       font-size: 24px;
     }
   }
+
+
+
+  .tabela-inscricao table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.tabela-inscricao th, .tabela-inscricao td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela-inscricao th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.tabela-inscricao tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabela-inscricao tr:hover {
+  background-color: #ddd;
+}
+
+
+
+
+.tabela-inscricao {
+  display: flex;
+  justify-content: center; /* Centraliza a tabela horizontalmente */
+  margin: 20px 0;
+}
+
+.tabela-inscricao table {
+  width: 80%; /* Define a largura da tabela como 80% */
+  border-collapse: collapse;
+}
+
+.tabela-inscricao th, .tabela-inscricao td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela-inscricao th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.tabela-inscricao tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabela-inscricao tr:hover {
+  background-color: #ddd;
+}
