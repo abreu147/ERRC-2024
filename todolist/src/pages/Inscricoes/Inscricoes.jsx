@@ -10,24 +10,24 @@ import { Link } from "react-router-dom";
 
 const inscricoes = [
   { categoria: "Estudante associado à SBC com anuidade vigente", faixa1: "R$ 10,00", faixa2: "R$ 30,00", anuidade: "" },
-  { categoria: "Estudante associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 10,00", faixa2: "R$ 30,00", anuidade: "R$ 31,00" },
-  { categoria: "Estudante não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 10,00", faixa2: "R$ 30,00", anuidade: "R$ 31,00" },
-  { categoria: "Estudante não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 42,00", faixa2: "R$ 64,00", anuidade: "" },
+  { categoria: "Estudante associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 41,00", faixa2: "R$ 61,00"},
+  { categoria: "Estudante não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 41,00", faixa2: "R$ 61,00"},
+  { categoria: "Estudante não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 42,00", faixa2: "R$ 64,00"},
 
   { categoria: "Estudante de pós-graduação associado à SBC com anuidade vigente", faixa1: "R$ 30,00", faixa2: "R$ 50,00", anuidade: "" },
-  { categoria: "Estudante de pós-graduação associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 30,00", faixa2: "R$ 50,00", anuidade: "R$ 125,00" },
-  { categoria: "Estudante de pós-graduação não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 30,00", faixa2: "R$ 50,00", anuidade: "R$ 125,00" },
-  { categoria: "Estudante de pós-graduação não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 50,00", faixa2: "R$ 70,00", anuidade: "" },
+  { categoria: "Estudante de pós-graduação associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 155,00", faixa2: "R$ 175,00"},
+  { categoria: "Estudante de pós-graduação não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 155,00", faixa2: "R$ 175,00" },
+  { categoria: "Estudante de pós-graduação não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 50,00", faixa2: "R$ 70,00"},
 
-  { categoria: "Professor de educação básica associado à SBC com anuidade vigente", faixa1: "R$ 40,00", faixa2: "R$ 60,00", anuidade: "" },
-  { categoria: "Professor de educação básica associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 40,00", faixa2: "R$ 60,00", anuidade: "R$ 125,00" },
-  { categoria: "Professor de educação básica não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 40,00", faixa2: "R$ 60,00", anuidade: "R$ 125,00" },
-  { categoria: "Professor de educação básica não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 60,00", faixa2: "R$ 80,00", anuidade: "" },
+  { categoria: "Professor de educação básica associado à SBC com anuidade vigente", faixa1: "R$ 40,00", faixa2: "R$ 60,00"},
+  { categoria: "Professor de educação básica associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 165,00", faixa2: "R$ 185,00" },
+  { categoria: "Professor de educação básica não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 165,00", faixa2: "R$ 185,00" },
+  { categoria: "Professor de educação básica não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 60,00", faixa2: "R$ 80,00"},
 
-  { categoria: "Profissional associado à SBC com anuidade vigente", faixa1: "R$ 50,00", faixa2: "R$ 70,00", anuidade: "" },
-  { categoria: "Profissional associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 50,00", faixa2: "R$ 70,00", anuidade: "R$ 356,00" },
-  { categoria: "Profissional não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 50,00", faixa2: "R$ 70,00", anuidade: "R$ 356,00" },
-  { categoria: "Profissional não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 80,00", faixa2: "R$ 100,00", anuidade: "" }
+  { categoria: "Profissional associado à SBC com anuidade vigente", faixa1: "R$ 50,00", faixa2: "R$ 70,00" },
+  { categoria: "Profissional associado à SBC com anuidade vencendo em até 90 dias (COMBO: inscrição no evento + renovação da associação à SBC)", faixa1: "R$ 406,00", faixa2: "R$ 426,00", anuidade: "R$ 356,00" },
+  { categoria: "Profissional não associado ou com associação não vigente à SBC (COMBO: inscrição no evento + associação à SBC)", faixa1: "R$ 406,00", faixa2: "R$ 426,00" },
+  { categoria: "Profissional não associado à SBC (Somente inscrição no evento)", faixa1: "R$ 80,00", faixa2: "R$ 100,00" }
 ];
 
 
@@ -56,7 +56,6 @@ function Inscricao() {
                 <th>Categoria</th>
                 <th>1ª Faixa de Inscrição (Até 11/11/2024)</th>
                 <th>2ª Faixa de Inscrição (Até 25/11/2024)</th>
-                <th>Anuidade</th>
               </tr>
             </thead>
             <tbody>
@@ -65,7 +64,6 @@ function Inscricao() {
                   <td>{item.categoria}</td>
                   <td>{item.faixa1}</td>
                   <td>{item.faixa2}</td>
-                  <td>{item.anuidade}</td>
                 </tr>
               ))}
             </tbody>

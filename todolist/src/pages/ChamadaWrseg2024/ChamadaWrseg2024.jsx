@@ -69,9 +69,9 @@ const texto4 = `Todos os artigos devem ser elaborados no formato SBC, com tamanh
 const titulo5 = `Processo de Revisão e Critérios`;
 const texto5 = `A WRSeg 2024 convida a dois tipos de submissões:
 
-•**Artigos completos** (até 5 páginas para texto, figuras, referências e anexos) que descrevem pesquisas originais, com concisão e aderência apropriada aos tópicos e temas que abordam.
+•**Artigos completos** (até 5 páginas de conteúdo, com 2 páginas adicionais para referências e anexos) que descrevem pesquisas originais, com concisão e aderência apropriada aos tópicos e temas que abordam.
 
-•**Artigos curtos** (até 3 páginas para texto, figuras, referências e anexos) que apresentam trabalhos menos maduros, mas que demonstram um grande potencial, OU oferecem resultados que não justificam uma submissão completa. Artigos curtos podem articular uma visão de alto nível e descrever direções futuras desafiadoras que os autores acreditam que a comunidade deve abordar; validar, verificar ou atualizar resultados importantes; ou apresentar novas ideias que desafiem pressupostos existentes. Nosso plano é designar um subconjunto de revisores exclusivamente para a avaliação de artigos curtos. Esses revisores serão lembrados das expectativas específicas para artigos curtos.
+•**Artigos curtos** (até 3 páginas de conteúdo, com 1 página adicional para referências e anexos) que apresentam trabalhos menos maduros, mas que demonstram um grande potencial, OU oferecem resultados que não justificam uma submissão completa. Artigos curtos podem articular uma visão de alto nível e descrever direções futuras desafiadoras que os autores acreditam que a comunidade deve abordar; validar, verificar ou atualizar resultados importantes; ou apresentar novas ideias que desafiem pressupostos existentes. Nosso plano é designar um subconjunto de revisores exclusivamente para a avaliação de artigos curtos. Esses revisores serão lembrados das expectativas específicas para artigos curtos.
 
 **Qualquer submissão que exceda o limite de páginas para artigos curtos será avaliada como um artigo completo.**
 
