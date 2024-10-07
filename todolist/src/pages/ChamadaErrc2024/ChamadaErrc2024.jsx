@@ -18,7 +18,7 @@ Os artigos submetidos à Escola pdem ser escritos em português ou inglês, e de
 
 O novo template de estilo da SBC está disponível somente em formato LaTeX. O template pode ser obtido diretamente no Overleaf através do link https://www.overleaf.com/latex/templates/template-anais-sbc-portugues-v1-jems3/tnbctcfcbnrs.
 
-As submissões devem ser feitas até às **23:59 do dia 07/10/2024** através do JEMS3 da ERRC 2024 **(https://jems3.sbc.org.br/errc2024)**.`
+As submissões devem ser feitas até às **23:59 do dia** ~~07/10/2024~~ **21/10/2024 e submissão 14/10/2024** através do JEMS3 da ERRC 2024 **(https://jems3.sbc.org.br/errc2024)**.`
 ;
 
 const titulo2 = `Processo de Revisão e Critérios`;
