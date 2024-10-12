@@ -16,7 +16,7 @@ Convidamos os autores a submeterem artigos com resultados de suas pesquisas, mes
 
 Os artigos submetidos à Escola pdem ser escritos em português ou inglês, e devem seguir o **novo formato da SBC**, que é inédito e será usado pela primeira vez durante o ERRC. Artigos em português devem incluir um abstract em inglês e um resumo em português; artigos em inglês precisam conter apenas do abstract. Aceitamos duas modalidades de submissão: **artigos completos** com até 5 páginas de conteúdo, com 2 páginas adicionais para referências e anexos e **artigos curtos** com até 3 páginas de conteúdo, com 1 página adicional para referências e anexos. O número total de páginas deve incluir resumo, abstract, figuras, diagramas, referências e anexos. Todos os artigos devem incluir os nomes dos autores e suas respectivas afiliações após o título.
 
-O novo template de estilo da SBC está disponível somente em formato LaTeX. O template pode ser obtido diretamente no Overleaf através do link https://www.overleaf.com/latex/templates/template-anais-sbc-portugues-v1-jems3/tnbctcfcbnrs.
+O novo template de estilo da SBC está disponível somente em formato LaTeX. O template pode ser obtido diretamente no Overleaf através do link https://www.overleaf.com/latex/templates/sbc-paper-2024-v1-dot-0/tnbctcfcbnrs
 
 As submissões devem ser feitas até às **23:59 do dia** ~~07/10/2024~~ **21/10/2024 e submissão 14/10/2024** através do JEMS3 da ERRC 2024 **(https://jems3.sbc.org.br/errc2024)**.`
 ;

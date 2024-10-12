@@ -80,7 +80,7 @@ O processo de revisão será realizado por pelo menos três revisores.
 
 O WRSeg 2024 concederá prêmios para as submissões de artigos, recebendo um certificado durante a cerimonia de encerramento do evento. Todos os artigos aceitos são elegíveis para estes prêmios: (1) Prêmio de Melhor Artigo da Trilha Principal; (2) prêmio de Melhor Artigo de Estudante de Graduação; e (3) um prêmio para a melhor apresentação. 
 
-O novo template de estilo da SBC está disponível somente em formato LaTeX. O template pode ser obtido diretamente no Overleaf através do link https://www.overleaf.com/latex/templates/template-anais-sbc-portugues-v1-jems3/tnbctcfcbnrs.
+O novo template de estilo da SBC está disponível somente em formato LaTeX. O template pode ser obtido diretamente no Overleaf através do link https://www.overleaf.com/latex/templates/sbc-paper-2024-v1-dot-0/tnbctcfcbnrs
 
 `;
 
