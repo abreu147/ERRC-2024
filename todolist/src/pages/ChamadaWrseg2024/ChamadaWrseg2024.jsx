@@ -96,7 +96,7 @@ function ChamadaWrseg2024() {
         <TextoFormatado title={titulo3} text={texto3} />
         <TextoFormatado title={titulo5} text={texto5} />
         <div className='BotaoInscricaoWRSEG'>
-          <BotaoPadrao name="Submeter Artigo" route="/Localizacao" />
+          <BotaoPadrao name="Submeter Artigo" route="https://jems3.sbc.org.br/errc2024" />
         </div>
         
     </div>
