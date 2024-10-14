@@ -12,7 +12,7 @@ const texto1 = `Autores são convidados a submeter artigos contendo resultados i
 const titulo2 = `Datas importantes`;
 const texto2 = `02/09/2024: Abertura do período de submissões
 
-~~07/10/2024~~ 14/10/2024 (hard deadline): Data limite de registro de artigos
+~~14/10/2024~~ 20/10/2024 (hard deadline): Data limite de registro de artigos
 ~~07/10/2024~~ 21/10/2024 (hard deadline): Data limite de submissão de artigos
 
 08/11/2024: Notificação de aceite dos artigos
