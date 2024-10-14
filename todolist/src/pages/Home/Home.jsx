@@ -34,7 +34,7 @@ function Home() {
         <div className='Texto-Datas-Home'>
           <h1>ERRC</h1>
           <p> 02/09/2024: Abertura do período de submissões</p>
-          <p> <s>07/10/2024</s> 14/10/2024 (hard deadline): Data limite de registro de artigos</p>
+          <p> <s>14/10/2024</s> 20/10/2024 (hard deadline): Data limite de registro de artigos</p>
           <p> <s>07/10/2024</s> 21/10/2024 (hard deadline): Data limite de submissão de artigos</p>
           <p> 08/11/2024: Notificação de aceite dos artigos</p>
           <p> 15/11/2024: Data limite para envio da versão final de artigos aceitos</p>
@@ -43,7 +43,7 @@ function Home() {
         <div className='Texto-Datas-Home'>
           <h1>WRSeg</h1>
           <p> 02/09/2024: Abertura do período de submissões</p>
-          <p> <s>07/10/2024</s> 14/10/2024 (hard deadline): Data limite de registro de artigos</p>
+          <p> <s>14/10/2024</s> 20/10/2024 (hard deadline): Data limite de registro de artigos</p>
           <p> <s>07/10/2024</s> 21/10/2024 (hard deadline): Data limite de submissão de artigos</p>
           <p> 08/11/2024: Notificação de aceite dos artigos</p>
           <p> 15/11/2024: Data limite para envio da versão final de artigos aceitos</p>
