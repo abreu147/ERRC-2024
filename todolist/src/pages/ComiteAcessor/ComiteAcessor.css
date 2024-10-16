@@ -1,3 +1,24 @@
 .ComiteAcessor-div{
     width: 100vw;
 }
+
+.formatted-list {
+    list-style-type: disc; /* Bullet points */
+    padding-left:113px; /* Espaçamento à esquerda para o alinhamento */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 18px; /* Tamanho da fonte para melhor legibilidade */
+    line-height: 1.8; /* Espaçamento entre as linhas */
+    margin: 0; /* Remove centralização */
+  }
+  
+  .formatted-list li {
+    margin: 10px 0; /* Espaçamento vertical entre os itens */
+    font-family: 'Arial', sans-serif; /* Define uma fonte adequada */
+    color: #333; /* Define a cor do texto */
+  }
+  
+  .ListaComite-div {
+    text-align: left; /* Alinha todo o conteúdo à esquerda */
+    padding-left: 20px; /* Opcional: adiciona um pequeno espaçamento à esquerda */
+  }
+  
