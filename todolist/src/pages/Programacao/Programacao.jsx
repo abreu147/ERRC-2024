@@ -4,7 +4,7 @@ import cronograma from '../../img/cronograma.png';
 import TextoFormatado from '../../components/TextoFormatado/TextoFormatado.jsx';
 import BlueBar from '../../components/BlueBar/BlueBar.jsx';
 
-const texto12 = "";
+const texto12 = " ";
 /* 
   const titulo1 = "Inscrição nos Minicursos (Gratuito para inscritos na ERRC 2024)";
   const texto1 = `Limite de vagas. Portanto terão prioridade participantes que preencherem o formulário. As vagas remanescentes serão alocadas por ordem de chegada.
