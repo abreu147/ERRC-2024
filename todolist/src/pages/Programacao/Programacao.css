@@ -1,3 +1,10 @@
 .Programacao-div{
     width: 100vw;
 }
+
+.image-class {
+    display: block;
+    margin: 0 auto;  
+    max-width: 100%;
+  }
+  

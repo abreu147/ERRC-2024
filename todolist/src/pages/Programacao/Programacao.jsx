@@ -1,9 +1,9 @@
 import React from 'react'
 import './Programacao.css'
+import cronograma from '../../img/cronograma.png';
 import TextoFormatado from '../../components/TextoFormatado/TextoFormatado.jsx';
 import BlueBar from '../../components/BlueBar/BlueBar.jsx';
 
-const titulo12 = "Em Breve";
 const texto12 = "";
 /* 
   const titulo1 = "Inscrição nos Minicursos (Gratuito para inscritos na ERRC 2024)";
@@ -19,7 +19,8 @@ function Programacao() {
   return (
     <div className='Programacao-div'>
       <BlueBar title="Programação" />
-      <TextoFormatado title={titulo12} text={texto12} />
+      <TextoFormatado text={texto12} />
+      <img src={cronograma} alt="Cronograma" className="image-class" />
       {/* <TextoFormatado title={} text={} /> */}
     </div>
     
