@@ -53,7 +53,6 @@ export default function Header() {
                             <div className="dropdown-content">
                                 <Link to="/Localizacao" onClick={closeMenu}>Localização</Link>
                                 <Link to="/Hospedagem" onClick={closeMenu}>Hospedagem</Link>
-                                <Link to="/Alimentacao" onClick={closeMenu}>Alimentação</Link>
                             </div>
                         )}
                     </div>

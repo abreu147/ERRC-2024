@@ -1,54 +1,102 @@
 .footer {
-    background-color: rgb(33, 33, 39);
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-segments {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-  
-  .footer-segments h3{
-    margin-bottom: 4%;
-  }
+  background-color: rgb(33, 33, 39);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100vw;
+}
 
-  .segment {
-    flex: 1;
-    margin: 0 10px;
-  }
-  
+.footer-segments {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.segment {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-segments h3 {
+  margin-bottom: 4%;
+}
+
+/* Configuração para duas linhas com controle flexível */
+.segment .footer-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-image {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Espaçamento horizontal entre as imagens da primeira linha */
+.footer-image:nth-child(1) {
+  flex: 20 20 20%;
+  margin-right: 3px; /* Adiciona espaçamento apenas entre as duas imagens da primeira linha */
+}
+
+.footer-image:nth-child(2) {
+  flex: 0 0 45%;
+}
+
+/* Configuração da segunda linha continua igual */
+.footer-image:nth-child(3),
+.footer-image:nth-child(4),
+.footer-image:nth-child(5) {
+  flex: 0 0 30%; /* Para manter três imagens na segunda linha */
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-text p {
+  margin: 0;
+}
+
+@media (max-width: 999px) {
   .footer-image {
-    max-width: 140px; /* Ajuste conforme necessário */
-    height: 80px;
+    max-width: 80px;
+    height: 60px;
   }
-  
   .footer-text {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .segment h3 {
+    font-size: 12px;
+  }
+  .segment p {
+    font-size: 10px;
   }
   
-  .footer-text p {
-    margin: 0;
+  /* Ajuste das imagens para ocupar largura completa em telas menores */
+  .footer-image {
+    flex: 0 0 100%;
   }
-  
-  @media (max-width: 999px){
-    .footer-image {
-      max-width: 80px; /* Ajuste conforme necessário */
-      height: 60px;
-    }
-    .footer-text {
-      font-size: 12px;
-    }
-    .segment h3{
-      font-size: 12px;
-    }
-    .segment p{
-      font-size: 10px;
-    }
-    .footer {
-      width: 100vw;
-    }
-    
-  }
+}
+
+.center-table {
+  width: 50%;
+  text-align: right;
+}
+
+/* Ajusta a exibição das imagens de patrocinadores */
+.footer-images .center-table tr:first-child {
+  display: flex;
+  justify-content: center; /* Centraliza as imagens na linha */
+  gap: 20px; /* Ajusta o espaçamento entre as imagens */
+}
+
+/* Adiciona espaçamento entre as imagens na segunda linha */
+.footer-images .center-table tr:nth-child(2) {
+  display: flex;
+  justify-content: center; /* Centraliza as imagens na linha de baixo */
+  gap: 10px; /* Ajuste o espaçamento entre as imagens, se necessário */
+}

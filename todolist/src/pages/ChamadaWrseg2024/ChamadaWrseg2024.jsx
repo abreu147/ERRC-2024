@@ -9,18 +9,6 @@ import BotaoPadrao from '../../components/BotaoPadrao/BotaoPadrao';
 const titulo1 = `Chamada para Trabalhos`;
 const texto1 = `Autores são convidados a submeter artigos contendo resultados iniciais/finais das suas pesquisas ou propostas. Neste ano, além dos trabalhos tradicionalmente publicados, também encorajamos a submissão de trabalhos com teor predominante prático.`;
 
-const titulo2 = `Datas importantes`;
-const texto2 = `02/09/2024: Abertura do período de submissões
-
-~~14/10/2024~~ 20/10/2024 (hard deadline): Data limite de registro de artigos
-~~07/10/2024~~ 21/10/2024 (hard deadline): Data limite de submissão de artigos
-
-08/11/2024: Notificação de aceite dos artigos
-
-15/11/2024: Data limite para envio da versão final de artigos aceitos
-
-27/11/2024: Início do evento`;
-
 const titulo3 = `Tópicos de Interesse (lista não exaustiva)`;
 const texto3 = `Arquitetura de redes
 Blockchain
@@ -92,7 +80,6 @@ function ChamadaWrseg2024() {
     <div className='Container-Chamada-errc-2023'>
         <BlueBar title="Chamada WRSeg 2024" />
         <TextoFormatado title={titulo1} text={texto1} />
-        <TextoFormatado title={titulo2} text={texto2} />
         <TextoFormatado title={titulo3} text={texto3} />
         <TextoFormatado title={titulo5} text={texto5} />
         <div className='BotaoInscricaoWRSEG'>

@@ -1,3 +1,23 @@
 .Hospedagem-div{
     width: 100vw;
 }
+
+.imagem-descricao {
+    text-align:left; /* Alinha o conteúdo à esquerda */
+    margin-top: 20px;
+  }
+  
+  .imagem {
+    width: 100%;
+    max-width: 300px; /* Ajuste conforme necessário */
+    height: auto;
+    display: block; /* Isso garante que a imagem se comporte como um bloco */
+    margin-left: 10px;
+}
+  
+  
+  p {
+    margin: 10px; /* Remove a margem do parágrafo */
+    font-size: 16px; /* Ajuste o tamanho da fonte se necessário */
+  }
+  

@@ -54,7 +54,7 @@ function Inscricao() {
             <thead>
               <tr>
                 <th>Categoria</th>
-                <th>1ª Faixa de Inscrição (Até 11/11/2024)</th>
+                <th>1ª Faixa de Inscrição (Até 15/11/2024)</th>
                 <th>2ª Faixa de Inscrição (Até 25/11/2024)</th>
               </tr>
             </thead>

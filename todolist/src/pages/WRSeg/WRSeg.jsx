@@ -11,10 +11,6 @@ const texto1 = `O Workshop Regional de Segurança da Informação e de Sistemas 
 const titulo2 = "Chamada para Trabalhos";
 const texto2 = `Autores são convidados a submeter artigos contendo resultados iniciais/finais das suas pesquisas ou propostas. Neste ano, além dos trabalhos tradicionalmente publicados, também encorajamos a submissão de trabalhos com teor predominante prático.`;
 
-const titulo3 = "Datas Importantes";
-const texto3 = `~~07/10/2024~~ 14/10/2024 (hard deadline): Data limite de registro de artigos
-~~07/10/2024~~ 21/10/2024 (hard deadline): Data limite de submissão de artigos`
-
 const titulo4 = "Tópicos de interesse (lista não exaustiva)";
 const texto4= `Anonimato e privacidade computacional
 Análise de códigos maliciosos
@@ -102,12 +98,61 @@ A terceira sugestão é revisar o artigo.
 `
 
 const titulo9 = `Comitê de Programa`;
-const texto9 = `Em definição`
+const texto9 = `Alberto Egon Schaeffer-Filho
+Alex M. de Oliveira
+André Riker
+Ariel Galante Dalla-Costa
+Bruno Augusti Mozzaquatro
+Bruno L. Dalmazo
+Cesar Augusto Hass Loureiro
+Charles Christian Miers
+Charles Varlei Neu
+Claudio Schepke
+Cristina Nunes
+Daniel Stefani Marcon
+Diego Kreutz
+Diogo Menezes Ferrazani Mattos
+Eder John Scheid
+Eduardo Maroñas Monks
+Ewerton Andrade
+Ewerton Monteiro Salvador
+Fabricio Martins Mazzola
+Frederico Schardong
+Giancarlo Lucca
+Guilherme P. Koslovski
+Juliano Araujo Wickboldt
+Lisandro Zambenedetti Granville
+Luciano Ignaczak
+Luciano Paschoal Gaspary
+Lucio Rene Prade
+Marcelo Augusto Rauh Schmitt
+Marcia Pasin
+Marcio Pohlmann
+Marco A. Spohn
+Marco Antonio Torrez Rojas
+Mauricio Aronne Pillon
+Mehran Misaghi
+Muriel Figueredo Franco
+Rafael Bastos
+Rafael R. Obelheiro
+Raul Ceretta Nunes
+Ricardo Borges Almeida
+Ricardo Parizotto
+Roben Castagna Lunardi
+Roberto Samarone Araujo
+Rodolfo Antunes
+Rodrigo Brandão Mansilha
+Rodrigo Campos Bortoletto
+Rodrigo Neves Calheiros
+Roger Immich
+Rogério Turchetti
+Simone Ceolin
+Tiago Antonio Rizzetti
+Walter Priesnitz Filho`
+
 const titulo10 = `Coordenação WRSeg/2024:`;
 const texto10 = `Prof. Dr. Bruno L. Dalmazo <dalmazo@furg.br>
 Prof. Dr. Charles Christian Miers <charles.miers@udesc.br>
-Prof. Dr. Marco Antônio Torres Rojas <marco.rojas@ifc.edu.br>
-Prof. Dr. Pedro de B. Marcos <pbmarcos@furg.br>
 `
 
 
@@ -118,13 +163,12 @@ function WRSeg() {
         <BlueBar title="WRSeg" />
         <TextoFormatado title={titulo1} text={texto1} />
         <TextoFormatado title={titulo2} text={texto2} />
-        <TextoFormatado title={titulo3} text={texto3} />
         <TextoFormatado title={titulo4} text={texto4} />
         <TextoFormatado title={titulo6} text={texto6} />
+        <TextoFormatado title={titulo9} text={texto9} />
         <TextoFormatado title={titulo7} text={texto7} />
         <TextoFormatado title={titulo5} text={texto5} />
         <TextoFormatado title={titulo8} text={texto8} />
-        <TextoFormatado title={titulo9} text={texto9} />
         <TextoFormatado title={titulo10} text={texto10} />
     </div>
   )

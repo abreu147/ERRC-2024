@@ -36,7 +36,46 @@ A ERRC 2024 concederá prêmios para as submissões de artigos, recebendo um cer
 `;
 
 const titulo3 = `Comitê de Programa`;
-const texto3 = `Cada trabalho será avaliado por três ou mais especialistas. A lista dos membros do comitê de programa está disponível aqui.`;
+const texto3 = `Adenauer Yamin
+Alberto Egon Schaeffer-Filho
+Alex M. de Oliveira
+Cesar Augusto Hass Loureiro
+Claudio Schepke
+Cristiano Bonato Both
+Cristina Nunes
+Daniel Stefani Marcon
+Diego Kreutz
+Diogo Menezes Ferrazani Mattos
+Eder John Scheid
+Eduardo Maroñas Monks
+Fábio Diniz Rossi
+Fabricio Martins Mazzola
+Guilherme P. Koslovski
+José Jair Santanna
+Juliano Araujo Wickboldt
+Leonardo Bidese de Pinho
+Lisandro Zambenedetti Granville
+Lucas Bondan
+Lucio Rene Prade
+Luis Augusto Dias Knob
+Marcelo Augusto Rauh Schmitt
+Marcia Pasin
+Marcio Pohlmann
+Marco A. Spohn
+Marcos Paulo Konzen
+Muriel Figueredo Franco
+Rafael Bastos
+Ricardo Borges Almeida
+Ricardo de la Rocha Ladeira
+Roben Castagna Lunardi
+Rodolfo Antunes
+Rodrigo Brandão Mansilha
+Rodrigo Campos Bortoletto
+Rodrigo Neves Calheiros
+Roger Immich
+Rogério Turchetti
+Simone Ceolin
+Tiago Antonio Rizzetti`;
 
 const titulo4 = `Tópicos de Interesse (lista não exaustiva)`;
 const texto4 = `Arquitetura de redes
