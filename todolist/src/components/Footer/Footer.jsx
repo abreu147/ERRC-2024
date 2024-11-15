@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import realizacaoImage from '../../img/sbc.png'; // substitua pelo caminho correto da imagem
-import organizacaoImage from '../../img/LogoC3BrancoG.png'; // substitua pelo caminho correto da imagem
-import apoioImage from '../../img/fapergs.png'; // substitua pelo caminho correto da imagem
+import realizacaoImage from '../../img/sbc.png';
+import organizacaoImage from '../../img/LogoC3BrancoG.png'; 
+import apoioImage from '../../img/fapergs.png'; 
 import patrocinioImageSVG from '../../img/logosvg.png';
 import patrocinioImageITEC from '../../img/logoitec.png';
 import patrocinioCDN from '../../img/logocdntv.png';
@@ -43,7 +43,7 @@ function Footer() {
               <tbody>
                 <tr>
                   <td className="center-cell">
-                    <a href="http://www.c3.furg.br/sobre.php" target="_blank" rel="noopener noreferrer">
+                    <a href="https://sagenetworks.com.br/quem-somos/" target="_blank" rel="noopener noreferrer">
                       <img src={patrocinioImageSVG} alt="Patrocínio" className="footer-image" />
                     </a>
                   </td>
@@ -70,7 +70,7 @@ function Footer() {
                   </td>
                   <td>
                     <a
-                      href="https://example.com/"
+                      href="https://sagresrg.com.br//"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -83,7 +83,7 @@ function Footer() {
                   </td>
                   <td>
                     <a
-                      href="https://example.com/"
+                      href="https://www.vetorial.net/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

@@ -3,21 +3,42 @@
 }
 
 .imagem-descricao {
-    text-align:left; /* Alinha o conteúdo à esquerda */
-    margin-top: 20px;
-  }
-  
-  .imagem {
-    width: 100%;
-    max-width: 300px; /* Ajuste conforme necessário */
-    height: auto;
-    display: block; /* Isso garante que a imagem se comporte como um bloco */
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center; 
 }
-  
-  
-  p {
-    margin: 10px; /* Remove a margem do parágrafo */
-    font-size: 16px; /* Ajuste o tamanho da fonte se necessário */
-  }
-  
+
+.hotel-item {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  justify-content: center; 
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 15px;
+}
+
+.imagem {
+  width: 350px; 
+  height: auto;
+  border-radius: 8px;
+}
+
+.hotel-info {
+  text-align: left;
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+.hotel-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hotel-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}

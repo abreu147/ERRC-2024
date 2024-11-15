@@ -76,7 +76,7 @@
     font-size: 10px;
   }
   
-  /* Ajuste das imagens para ocupar largura completa em telas menores */
+  /* Ajuste das imagens para telas */
   .footer-image {
     flex: 0 0 100%;
   }
@@ -98,5 +98,5 @@
 .footer-images .center-table tr:nth-child(2) {
   display: flex;
   justify-content: center; /* Centraliza as imagens na linha de baixo */
-  gap: 10px; /* Ajuste o espaçamento entre as imagens, se necessário */
+  gap: 10px; /* Ajuste do espaçamento entre as imagens */
 }
