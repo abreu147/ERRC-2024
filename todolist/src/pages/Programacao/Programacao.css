@@ -2,9 +2,16 @@
     width: 100vw;
 }
 
-.image-class {
-    display: block;
-    margin: 0 auto;  
-    max-width: 100%;
-  }
-  
+.google-sheet-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+.sheet-iframe {
+  width: 90vw; 
+  height: 90vh; 
+  border: none; 
+}
