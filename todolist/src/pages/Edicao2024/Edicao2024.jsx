@@ -5,7 +5,6 @@ import BlueBar from '../../components/BlueBar/BlueBar.jsx';
 
 const titulo1 = "Coordenação Geral";
 const texto1 = `Prof. Dr. Bruno Lopes Dalmazo (FURG)
-Prof. Dr. Marcelo Rita Pias (FURG)
 Prof. Dr. Pedro de Botelho Marcos (FURG)
 Prof. Dr. Vinicius Garcia Pinto (FURG)`
 ;
